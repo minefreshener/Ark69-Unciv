@@ -4574,7 +4574,7 @@
 		"cost": 600,
 		"requiredTech": "Flight",
 		"upgradesTo": "Bomber 11A",
-		"obsoleteTech": "Heavy ndustrialization",
+		"obsoleteTech": "Heavy Industrialization",
 		"uniques": ["Gunpowder","Consumes [1] [Oil]"],
 		"promotions": ["Aircraft","Pistol","Bombs"],
 		"attackSound": "bombing"
