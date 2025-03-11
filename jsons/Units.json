@@ -4603,7 +4603,7 @@
 		"rangedStrength": 60,
 		"cost": 700,
 		"requiredTech": "Advanced Radar",
-		"uniques": ["Gunpowder","Consumes [1] [Oil]"],
+		"uniques": ["Gunpowder","Consumes [1] [Oil]","Can see over obstacles"],
 		"promotions": ["Aircraft","Machine Gun","Bombs","Radar System"],
 		"attackSound": "bombing"
 	},
@@ -4619,7 +4619,7 @@
 		"requiredTech": "Radio",
 		"upgradesTo": "Fighter 12A",
 		"obsoleteTech": "Aerodynamics",
-		"uniques": ["Gunpowder","Consumes [1] [Oil]","[100]% chance to intercept air attacks"],
+		"uniques": ["Gunpowder","Consumes [1] [Oil]","[100]% chance to intercept air attacks","Can perform Air Sweep"],
 		"promotions": ["Aircraft","Machine Gun"],
 		"attackSound": "machinegun"
 	},
@@ -4633,8 +4633,8 @@
 		"rangedStrength": 60,
 		"cost": 700,
 		"requiredTech": "Aerodynamics",
-		"uniques": ["Gunpowder","Consumes [1] [Oil]","[100]% chance to intercept air attacks"],
-		"promotions": ["Aircraft","Machine Gun","Autocannon"],
+		"uniques": ["Gunpowder","Consumes [1] [Oil]","[100]% chance to intercept air attacks","Can see over obstacles","Can perform Air Sweep"],
+		"promotions": ["Aircraft","Machine Gun","Autocannon","Radar System"],
 		"attackSound": "machinegun"
 	},
 ]
