@@ -258,7 +258,7 @@
 		"upgradesTo": "Battlemage 6A",
 		"obsoleteTech": "Education",
 		"uniques": ["Magic","Elite","Feudal","Chemical","Consumes [1] [Magic Crystals]"],
-		"promotions": ["Mace","Shield","Heavy Armor"],
+		"promotions": ["Sword","Staff","Heavy Armor"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -271,12 +271,12 @@
 		"upgradesTo": "Battlemage 7A",
 		"obsoleteTech": "Magical Materials",
 		"uniques": ["Magic","Elite","Feudal","Chemical","Consumes [1] [Magic Crystals]"],
-		"promotions": ["Mace","Shield","Heavy Armor"],
+		"promotions": ["Sword","Staff","Heavy Armor"],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Battlemage 7A",
-		"unitType": "Heavy Cavalry",
+		"unitType": "Hybrid Cavalry",
 		"movement": 4,
 		"strength": 40,
 		"cost": 350,
@@ -284,7 +284,7 @@
 		"upgradesTo": "Mage Elephant 8A",
 		"obsoleteTech": "Arcane Ballistics",
 		"uniques": ["Magic","Elite","Feudal","Chemical","Gunpowder","Consumes [1] [Magic Crystals]","Can move after attacking"],
-		"promotions": ["Horse","Mace","Pistol","Shield","Heavy Armor"],
+		"promotions": ["Horse","Sword","Pistol","Staff","Heavy Armor"],
 		"attackSound": "nonmetalhit"
 	},
 	{
