@@ -1270,14 +1270,86 @@
         "row": 4
     	},
 	{
+	"name": "Sortie",
+	"prerequisites": ["Dogfighting III","Evasion III","Interception III"],
+	"uniques": ["[1] extra interceptions may be made per turn"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 53,
+        "row": 5
+    	},
+	{
 	"name": "Bombs",
         "column": 54,
         "row": 1
     	},
 	{
-	"name": "Aircraft",
+	"name": "Evasion I",
+	"prerequisites": ["Bombs","Aircraft"],
+	"uniques": ["Damage taken from interception reduced by [20]%"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 54,
+        "row": 2
+    	},
+	{
+	"name": "Evasion II",
+	"prerequisites": ["Evasion I"],
+	"uniques": ["Damage taken from interception reduced by [20]%"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 54,
+        "row": 3
+    	},
+	{
+	"name": "Evasion III",
+	"prerequisites": ["Evasion II"],
+	"uniques": ["Damage taken from interception reduced by [20]%"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 54,
+        "row": 4
+    	},
+	{
+	"name": "Aircraft",
+        "column": 55,
         "row": 1
+    	},
+	{
+	"name": "Dogfighting I",
+	"prerequisites": ["Aircraft"],
+	"uniques": ["[+33]% Strength when performing Air Sweep"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 55,
+        "row": 2
+    	},
+	{
+	"name": "Dogfighting II",
+	"prerequisites": ["Dogfighting I"],
+	"uniques": ["[+33]% Strength when performing Air Sweep"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 55,
+        "row": 3
+    	},
+	{
+	"name": "Dogfighting III",
+	"prerequisites": ["Dogfighting II"],
+	"uniques": ["[+33]% Strength when performing Air Sweep"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 55,
+        "row": 4
+    	},
+	{
+	"name": "Operational Range",
+	"prerequisites": ["Dogfighting III","Evasion III"],
+	"uniques": ["[+2] Range"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 55,
+        "row": 5
     	},
 	{
 	"name": "Ignore Terrain Cost",
