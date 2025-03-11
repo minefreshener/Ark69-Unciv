@@ -1199,6 +1199,20 @@ TileSets/HexaRealm/Tiles/Magic Crystals+Offshore Platform
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Sulfur
+  rotate: false
+  xy: 292, 538
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tin
+  rotate: false
+  xy: 292, 602
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Iji
   rotate: false
   xy: 580, 87
