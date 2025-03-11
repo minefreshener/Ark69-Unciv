@@ -269,13 +269,6 @@ TileSets/HexaRealm/Units/Land Ship 12A
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Battle Tank 12A
-  rotate: false
-  xy: 508, 1055
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Units/Western Alliance Cavalry 2A
   rotate: false
   xy: 1297, 1385
@@ -620,6 +613,20 @@ TileSets/HexaRealm/Units/Mage Elephant 9A
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Mage Tank 10A
+  rotate: false
+  xy: 1081, 1428
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mage Tank 11A
+  rotate: false
+  xy: 1081, 1428
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mage Tank 12A
   rotate: false
   xy: 1081, 1428
   size: 64, 56
@@ -1871,6 +1878,20 @@ TileSets/HexaRealm/Units/Chariot Gunner 6A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Battle Tank 11A
+  rotate: false
+  xy: 508, 1055
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Battle Tank 12A
+  rotate: false
+  xy: 508, 1055
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Militia Cavalry 4A
   rotate: false
   xy: 501, 1360
@@ -2179,6 +2200,27 @@ TileSets/HexaRealm/Units/Field Gun 8A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Mortar 10A
+  rotate: false
+  xy: 1509, 979
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mortar 11A
+  rotate: false
+  xy: 1509, 979
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Mortar 12A
+  rotate: false
+  xy: 1509, 979
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/War Canoe 1A
   rotate: false
   xy: 292, 730
@@ -2247,5 +2289,32 @@ TileSets/HexaRealm/Units/Marine 7A
   xy: 1797, 890
   size: 64, 56
   orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+Tilesets3.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Units/Armoured Car 10A
+  rotate: false
+  xy: 1700, 1321
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Armoured Car 11A
+  rotate: false
+  xy: 1700, 1321
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Armoured Car 12A
+  rotate: false
+  xy: 1700, 1321
+  size: 64, 65
+  orig: 64, 65
   offset: 0, 0
   index: -1
