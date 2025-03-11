@@ -510,7 +510,7 @@
     	},
 	{
 	"name": "Targeting I",
-	"prerequisites": ["Ballista","Cannon","Breach-Loaded Cannon","Autocannon","Torpedo"],
+	"prerequisites": ["Ballista","Cannon","Breach-Loaded Cannon","Autocannon","Torpedo","Bombs"],
 	"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -547,7 +547,7 @@
     	},
 	{
 	"name": "Bombardment I",
-	"prerequisites": ["Cannon","Breach-Loaded Cannon"],
+	"prerequisites": ["Cannon","Breach-Loaded Cannon","Bombs"],
 	"uniques": ["[+10]% Strength <vs [Land] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -933,7 +933,7 @@
     	},
 	{
 	"name": "Salvo I",
-	"prerequisites": ["Rockets","Torpedo"],
+	"prerequisites": ["Rockets","Torpedo","Bombs"],
 	"uniques": ["[+25]% Strength <when attacking> <with [50]% chance>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -1039,7 +1039,7 @@
     	},
 	{
 	"name": "Urban Warfare I",
-	"prerequisites": ["Grenade","Rifle","Sword"],
+	"prerequisites": ["Grenade","Rifle","Sword","Bombs"],
 	"uniques": ["[+20]% Strength <when fighting in [Hamlet] tiles>","[+3] HP when healing <in [Hamlet] tiles>","[+33]% Strength <vs cities> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -1071,7 +1071,7 @@
     	},
 	{
 	"name": "Armor Piercing I",
-	"prerequisites": ["Autocannon","Grenade"],
+	"prerequisites": ["Autocannon","Grenade","Bombs"],
 	"uniques": ["[+15]% Strength <vs [Armor Plating I] units> <when attacking>"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -1268,6 +1268,16 @@
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
         "column": 53,
         "row": 4
+    	},
+	{
+	"name": "Bombs",
+        "column": 54,
+        "row": 1
+    	},
+	{
+	"name": "Aircraft",
+        "column": 54,
+        "row": 1
     	},
 	{
 	"name": "Ignore Terrain Cost",
