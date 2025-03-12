@@ -1165,7 +1165,7 @@
 		"requiredNearbyImprovedResources": ["Iron"],
 		"hurryCostModifier": 25,
 		"uniques": ["[+5]% Production when constructing [Heavy Infantry] units [in this city]","[+5]% Production when constructing [Heavy Cavalry] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]","All newly-trained [relevant] units [in this city] receive the [Armor Plating I] promotion"],
+			"All newly-trained [Land] units [in this city] receive the [Improved Armor] promotion"],
 		"requiredTech": "Advanced Armor"
 	},
 	{
