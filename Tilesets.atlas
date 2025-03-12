@@ -1521,14 +1521,14 @@ TileSets/HexaRealm/Units/Elite Archer 6A
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/ELite Longbowman 7A
+TileSets/HexaRealm/Units/Elite Longbowman 7A
   rotate: false
   xy: 1153, 1448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/ELite Longbowman 8A
+TileSets/HexaRealm/Units/Elite Longbowman 8A
   rotate: false
   xy: 1153, 1448
   size: 64, 56
