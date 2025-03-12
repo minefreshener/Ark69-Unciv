@@ -59,6 +59,188 @@ TileSets/HexaRealm/Tiles/Black Mountains
   orig: 64, 58
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Fort
+  rotate: false
+  xy: 1124, 1636
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Fort-Tenth Age
+  rotate: false
+  xy: 296, 1770
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Fort-Eleventh Age
+  rotate: false
+  xy: 296, 1770
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Fort-Twelfth Age
+  rotate: false
+  xy: 296, 1770
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Fort-Pillaged
+  rotate: false
+  xy: 289, 1702
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/FortT
+  rotate: false
+  xy: 289, 1638
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/FortT-Tenth Age
+  rotate: false
+  xy: 285, 1510
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/FortT-Eleventh Age
+  rotate: false
+  xy: 285, 1510
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/FortT-Twelfth Age
+  rotate: false
+  xy: 285, 1510
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/FortT-Pillaged
+  rotate: false
+  xy: 285, 1442
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Citadel
+  rotate: false
+  xy: 1606, 1850
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Citadel-Twelfth Age
+  rotate: false
+  xy: 1678, 1850
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Citadel-Pillaged
+  rotate: false
+  xy: 1750, 1850
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/CitadelT
+  rotate: false
+  xy: 1822, 1842
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/CitadelT-Twelfth Age
+  rotate: false
+  xy: 1894, 1850
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/CitadelT-Pillaged
+  rotate: false
+  xy: 1966, 1850
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Manufactory
+  rotate: false
+  xy: 1297, 1313
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Manufactory-Ninth Age
+  rotate: false
+  xy: 1369, 1366
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Manufactory-Tenth Age
+  rotate: false
+  xy: 1369, 1366
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Manufactory-Eleventh Age
+  rotate: false
+  xy: 1369, 1366
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Manufactory-Twelfth Age
+  rotate: false
+  xy: 1369, 1366
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ManufactoryT
+  rotate: false
+  xy: 1369, 1294
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ManufactoryT-Ninth Age
+  rotate: false
+  xy: 1369, 1222
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ManufactoryT-Tenth Age
+  rotate: false
+  xy: 1369, 1222
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ManufactoryT-Eleventh Age
+  rotate: false
+  xy: 1369, 1222
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ManufactoryT-Twelfth Age
+  rotate: false
+  xy: 1369, 1222
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/City center
   rotate: false
   xy: 1102, 1786
