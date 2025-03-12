@@ -8,7 +8,6 @@
 		"science": 1,
 		"gold": 1,
 		"culture": 1,
-		"cityStrength": 5,
 		"cost": 1,
 		"uniques": ["Indicates the capital city","[+3 Culture] <after discovering [Artistic Education]>","[+3 Production] <after discovering [Civil Engineering]>",
 			"[+3 Science] <after discovering [Education]>","[+3 Gold] <after discovering [Economics]>","[+3 Food] <after discovering [Fertilizer]>"]
@@ -869,7 +868,7 @@
 	{
 		"name": "Ramparts",
 		"requiredBuilding": "Walls",
-		"cityStrength": 10,
+		"cityStrength": 5,
 		"cityHealth": 10,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
@@ -877,7 +876,7 @@
 	},
 	{
 		"name": "Castle",
-		"cityStrength": 10,
+		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Heavy Fortifications",
@@ -938,15 +937,15 @@
 	{
 		"name": "Bastions",
 		"requiredBuilding": "Earthworks",
-		"cityStrength": 10,
-		"cityHealth": 25,
+		"cityStrength": 5,
+		"cityHealth": 30,
 		"hurryCostModifier": 25,
 		"requiredTech": "Star Forts",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
 		"name": "Battery",
-		"cityStrength": 15,
+		"cityStrength": 5,
 		"hurryCostModifier": 25,
 		"requiredTech": "Ballistics",
 		"uniques": ["Destroyed when the city is captured"]
@@ -969,7 +968,7 @@
 	{
 		"name": "City Defense Network",
 		"requiredBuilding": "City Radar System",
-		"cityStrength": 15,
+		"cityStrength": 5,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredTech": "Advanced Radar",
