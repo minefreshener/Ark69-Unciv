@@ -1384,6 +1384,10 @@
 	"uniques": ["Unable to pillage tiles"]
 	},
 	{
+	"name": "Improved Armor",
+	"uniques": ["[+10]% Strength <when defending>"]
+	},
+	{
 	"name": "Morale",
 	"uniques": ["[+10]% Strength"]
 	}
