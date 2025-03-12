@@ -1125,6 +1125,7 @@
 				"name": "Defensive Pacts",
 				"row": 8,
 				"prerequisites": ["Political Education","Arcane Ballistics"],
+				"uniques": ["Enables Defensive Pacts"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
