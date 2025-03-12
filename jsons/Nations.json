@@ -80,7 +80,7 @@
 	{
 		"name": "Chenom Fehike",
 		"adjective": ["Fehkish"],
-		"cityStateType": "",
+		"cityStateType": "Fehkish",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
@@ -355,7 +355,7 @@
 	{
 		"name": "City Of Zvongombe",
 		"adjective": ["Zvogombean"],
-		"cityStateType": "",
+		"cityStateType": "Zvongombean",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
