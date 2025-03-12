@@ -59,6 +59,321 @@ TileSets/HexaRealm/Tiles/Black Mountains
   orig: 64, 58
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/City center
+  rotate: false
+  xy: 1102, 1786
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-First Age
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-First Age-Hav Dalkur
+  rotate: false
+  xy: 1102, 1786
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Second Age
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Second Age-Hav Dalkur
+  rotate: false
+  xy: 1102, 1786
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Third Age
+  rotate: false
+  xy: 1102, 1786
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Third Age-The Sefurjel
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Third Age-The Dawurjel
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Third Age-The Marlian Empire
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Third Age-Keldura
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Third Age-Maraukai
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Third Age-The Dolojel
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Third Age-The Suilumanin
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fourth Age
+  rotate: false
+  xy: 1102, 1786
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fourth Age-Hav Dalkur
+  rotate: false
+  xy: 1534, 1784
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fourth Age-The Sefurjel
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fourth Age-The Dawurjel
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fourth Age-The Marlian Empire
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fourth Age-Keldura
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fourth Age-Maraukai
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fourth Age-The Suilumanin
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fifth Age
+  rotate: false
+  xy: 1534, 1784
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fifth Age-The Sefurjel
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fifth Age-The Marlian Empire
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fifth Age-The Dolojel
+  rotate: false
+  xy: 1102, 1786
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fifth Age-The Suilumanin
+  rotate: false
+  xy: 1102, 1786
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Sixth Age
+  rotate: false
+  xy: 1534, 1784
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Sixth Age-The Marlian Empire
+  rotate: false
+  xy: 1174, 1764
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Seventh Age
+  rotate: false
+  xy: 1678, 1776
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Seventh Age-The Sefurjel
+  rotate: false
+  xy: 1534, 1784
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Seventh Age-The Dawurjel
+  rotate: false
+  xy: 1534, 1784
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Seventh Age-The Marlian Empire
+  rotate: false
+  xy: 1534, 1784
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Seventh Age-Maraukai
+  rotate: false
+  xy: 1534, 1784
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Seventh Age-The Dolojel
+  rotate: false
+  xy: 1534, 1784
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Eighth Age
+  rotate: false
+  xy: 1678, 1776
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Eighth Age-The Sefurjel
+  rotate: false
+  xy: 1534, 1784
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Ninth Age
+  rotate: false
+  xy: 1390, 1776
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Ninth Age-The Sefurjel
+  rotate: false
+  xy: 1678, 1776
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Ninth Age-Hav Dalkur
+  rotate: false
+  xy: 1678, 1776
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Tenth Age
+  rotate: false
+  xy: 1390, 1776
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Tenth Age-Hav Dalkur
+  rotate: false
+  xy: 1678, 1776
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Eleventh Age
+  rotate: false
+  xy: 1390, 1776
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Eleventh Age-Hav Dalkur
+  rotate: false
+  xy: 1678, 1776
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Twelfth Age
+  rotate: false
+  xy: 1606, 1772
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Twelfth Age-Hav Dalkur
+  rotate: false
+  xy: 1390, 1776
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/EmbarkedUnit-Civilian
   rotate: false
   xy: 1894, 1530
