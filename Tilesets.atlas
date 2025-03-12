@@ -1780,7 +1780,42 @@ TileSets/HexaRealm/Tiles/Hamlet
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Hamlet-Sefurjel
+TileSets/HexaRealm/Tiles/Hamlet-The Sefurjel
+  rotate: false
+  xy: 4, 328
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hamlet-The Dawurjel
+  rotate: false
+  xy: 4, 328
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hamlet-The Marlian Empire
+  rotate: false
+  xy: 4, 328
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hamlet-The Dolojel
+  rotate: false
+  xy: 4, 328
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hamlet-Zvongombe
+  rotate: false
+  xy: 4, 328
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hamlet-City Of Zvongombe
   rotate: false
   xy: 4, 328
   size: 64, 64
