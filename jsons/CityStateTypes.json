@@ -1,1 +1,21 @@
-
+[
+    {
+        "name": "Fehkish",
+        "friendBonusUniques": ["[+3 Culture] <starting from the [Third Age]> <before the [Sixth Age]>","[+6 Culture] <starting from the [Sixth Age]> <before the [Tenth Age]>",
+          "[+3 Culture] <starting from the [Tenth Age]>"],
+        "allyBonusUniques": ["[+5 Culture, +5 Science] <starting from the [Third Age]> <before the [Sixth Age]>",
+          "[+10 Culture, +5 Gold] <starting from the [Sixth Age]> <before the [Tenth Age]>","[+5 Culture, +5 Science, +5 Gold] <starting from the [Tenth Age]>",
+          "[+1 Food] [in all cities]"],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Zvongombean",
+        "friendBonusUniques": ["[+3 Culture, +3 Production] <starting from the [Second Age]> <before the [Fifth Age]>",
+          "[+6 Culture, +6 Faith] <starting from the [Fifth Age]> <before the [Tenth Age]>","[+3 Culture, +6 Production] <starting from the [Tenth Age]>"],
+        "allyBonusUniques": ["Provides military units every ≈[15] turns <starting from the [Second Age]> <before the [Fifth Age]>",
+          "Provides military units every ≈[17] turns <starting from the [Fifth Age]> <before the [Ninth Age]>",
+          "Provides military units every ≈[20] turns <starting from the [Ninth Age]> <before the [Eleventh Age]>",
+          "Provides military units every ≈[25] turns <starting from the [Eleventh Age]>"],
+        "color": [139, 96, 255]
+    },
+]
