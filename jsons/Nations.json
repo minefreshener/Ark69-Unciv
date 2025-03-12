@@ -78,6 +78,20 @@
 		"cities": ["Fehk","Ijistan"]
 	},
 	{
+		"name": "Chenom Fehike",
+		"adjective": ["Fehkish"],
+		"cityStateType": "",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [61, 0, 109],
+		"innerColor": [134,238,214],
+		"uniqueName": "City Of Salt",
+		"uniques": ["Double quantity of [Salt] produced","[+1 Culture] from every [Salt]","[+1 Culture] from every specialist [in all cities]"],
+		"cities": ["Fehk"]
+	},
+	{
 		"name": "Grenelgad",
 		"leaderName": "Chanovar",
 		"preferredVictoryType": "Domination",
@@ -337,6 +351,21 @@
 		"uniques": ["Military Units gifted from City-States start with [+30] XP","[+1 Production] from every specialist [in all cities]",
 			"[+10]% Strength <within [1] tiles of a [City center]>","[+33]% City Strength from defensive buildings"],
 		"cities": ["Zvongombe","Agujaya"]
+	},
+	{
+		"name": "City Of Zvongombe",
+		"adjective": ["Zvogombean"],
+		"cityStateType": "",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [61, 0, 109],
+		"innerColor": [255,255,255],
+		"uniqueName": "Halls Of Soil",
+		"uniques": ["[+1 Production] from every specialist [in all cities]","[+10]% Strength <within [1] tiles of a [City center]>",
+			"[+33]% City Strength from defensive buildings"],
+		"cities": ["Zvongombe"]
 	},
 	{
 		"name": "The Sefurjel",
