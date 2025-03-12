@@ -79,6 +79,12 @@
 		"uniques": ["Can only be built to improve a resource","Cannot be built on [Water] tiles","Pillaging this improvement yields approximately [+30 Gold]"],
 		"shortcutKey": "W"
 	},
+	{
+		"name": "Offshore Platform",
+		"techRequired": "Naval Defenses",
+		"uniques": ["Can only be built to improve a resource","Can only be built on [Water] tiles","Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "P"
+	},
   {
 		"name": "Quarry",
     		"terrainsCanBeBuiltOn": ["Mountain","Boneyard"],
