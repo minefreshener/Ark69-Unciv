@@ -66,16 +66,86 @@ TileSets/HexaRealm/Units/EmbarkedUnit-Civilian
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Modern era
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-First Age
+  rotate: false
+  xy: 1894, 1530
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Second Age
+  rotate: false
+  xy: 1894, 1530
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Third Age
+  rotate: false
+  xy: 1894, 1530
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Fourth Age
+  rotate: false
+  xy: 1894, 1530
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Fifth Age
+  rotate: false
+  xy: 1894, 1530
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Sixth Age
+  rotate: false
+  xy: 1894, 1530
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Seventh Age
+  rotate: false
+  xy: 1678, 1512
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Eighth Age
+  rotate: false
+  xy: 1678, 1512
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Ninth Age
+  rotate: false
+  xy: 1678, 1512
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Tenth Age
   rotate: false
   xy: 1966, 1522
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Renaissance era
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Eleventh Age
   rotate: false
-  xy: 1678, 1512
+  xy: 1966, 1522
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Civilian-Twelfth Age
+  rotate: false
+  xy: 1966, 1522
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -87,18 +157,179 @@ TileSets/HexaRealm/Units/EmbarkedUnit-Military
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/EmbarkedUnit-Military-Modern era
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-First Age
+  rotate: false
+  xy: 1750, 1522
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Second Age
+  rotate: false
+  xy: 1750, 1522
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Third Age
+  rotate: false
+  xy: 1750, 1522
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Fourth Age
+  rotate: false
+  xy: 1750, 1522
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Fifth Age
+  rotate: false
+  xy: 1750, 1522
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Sixth Age
+  rotate: false
+  xy: 1894, 1466
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Seventh Age
+  rotate: false
+  xy: 1894, 1466
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Eighth Age
+  rotate: false
+  xy: 1894, 1466
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Ninth Age
+  rotate: false
+  xy: 1894, 1466
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Tenth Age
   rotate: false
   xy: 1822, 1522
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/EmbarkedUnit-Military-Renaissance era
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Eleventh Age
   rotate: false
-  xy: 1894, 1466
+  xy: 1822, 1522
   size: 64, 56
   orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Military-Twelfth Age
+  rotate: false
+  xy: 1822, 1522
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler
+  rotate: false
+  xy: 1966, 1458
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-First Age
+  rotate: false
+  xy: 1966, 1458
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Second Age
+  rotate: false
+  xy: 1966, 1458
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Third Age
+  rotate: false
+  xy: 1966, 1458
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Fourth Age
+  rotate: false
+  xy: 1966, 1458
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Fifth Age
+  rotate: false
+  xy: 1966, 1458
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Sixth Age
+  rotate: false
+  xy: 165, 382
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Seventh Age
+  rotate: false
+  xy: 165, 382
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Eighth Age
+  rotate: false
+  xy: 165, 382
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Ninth Age
+  rotate: false
+  xy: 148, 310
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Tenth Age
+  rotate: false
+  xy: 148, 310
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Eleventh Age
+  rotate: false
+  xy: 148, 310
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-Settler-Twelfth Age
+  rotate: false
+  xy: 148, 310
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Battlemage 5A
