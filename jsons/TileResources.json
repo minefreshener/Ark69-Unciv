@@ -149,7 +149,7 @@
 		"revealedBy": "Magic Theory",
 		"terrainsCanBeFoundOn": ["Desert","Snow","Jungle","Forest","Mountain","Ocean"], // Hill only if plains or grassland
 		"production": 1,
-		"improvedBy": ["Mine","Fishing Boats"],
+		"improvedBy": ["Mine","Offshore Platform"],
 		"improvementStats": {"culture": 2},
 	  	"uniques": ["Guaranteed with Strategic Balance resource option","Generated with weight [35] <in [Snow] Regions>",
 		"Major deposits generated with weight [20] <in [Jungle] tiles>",
@@ -213,7 +213,7 @@
 		"revealedBy": "Biology",
 		"terrainsCanBeFoundOn": ["Desert","Coast","Ocean","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
-		"improvedBy": ["Oil well"],
+		"improvedBy": ["Oil well","Offshore platform"],
 		"improvementStats": {"production": 3},
 		"uniques": ["Deposits in [Coast] tiles always provide [4] resources","Generated with weight [100] <in [{Featureless} {Ocean}] tiles>",
 					"Guaranteed with Strategic Balance resource option",
