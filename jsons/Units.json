@@ -182,6 +182,22 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Warrior Druid 3A",
+		"unitType": "Light Infantry",
+		"uniqueTo": "Fehk",
+		"replaces": "Warrior Shaman 3A",
+		"movement": 2,
+		"strength": 15,
+		"cost": 150,
+		"requiredTech": "Professional Wizardry",
+		"upgradesTo": "Warrior Shaman 4A",
+		"obsoleteTech": "Magicology",
+		"uniques": ["Magic","Elite","Feudal","Chemical","Can Spread Religion <for [2] movement> <[2] times>",
+			"[+15]% Strength bonus for [Military] units within [1] tiles","Consumes [1] [Magic Crystals]"],
+		"promotions": ["Sword","Shield","Medical Training"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Warrior Shaman 4A",
 		"unitType": "Light Infantry",
 		"movement": 2,
