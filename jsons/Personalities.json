@@ -1,7 +1,6 @@
 [
     {
     "name": "Kalak VI",
-    "Will not build [Melee]",
     "production": 3,
     "food": 6,
     "gold": 6,
@@ -16,6 +15,7 @@
     "diplomacy": 7,
     "loyal": 9,
     "expansion": 3,
+    "uniques": ["Will not build [Trebuchet 6A]"],
     "priorities": {
       "Tradition": 7,
       "Liberty": 5,
