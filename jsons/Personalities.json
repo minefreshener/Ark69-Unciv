@@ -1,6 +1,7 @@
 [
     {
     "name": "Kalak VI",
+    "Will not build [Melee]",
     "production": 3,
     "food": 6,
     "gold": 6,
