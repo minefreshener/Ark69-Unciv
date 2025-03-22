@@ -1237,6 +1237,22 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Kelduran Janissary 7A",
+		"unitType": "Light Infantry",
+		"uniqueTo": "Keldura",
+		"replaces": "Elite Line Infantry 7A",
+		"movement": 2,
+		"strength": 43,
+		"cost": 450,
+		"requiredTech": "Military Specialization",
+		"upgradesTo": "Kelduran Janissary 8A",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
+			"[+33]% Strength <vs [Spear Infantry] units>","[+50]% Strength <vs [Warship] units> <when attacking>"],
+		"promotions": ["Smoothbore Gun","Sword","Shield","[Janissary] ability","Medical Training"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Elite Line Infantry 8A",
 		"unitType": "Light Infantry",
 		"movement": 2,
@@ -1319,6 +1335,24 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Kelduran Janissary 8A",
+		"unitType": "Light Infantry",
+		"uniqueTo": "Keldura",
+		"replaces": "Elite Rifleman 8A",
+		"movement": 2,
+		"strength": 48,
+		"range": 1,
+		"rangedStrength": 48,
+		"cost": 500,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Kelduran Janissary 9A",
+		"obsoleteTech": "Advanced Ballistics",
+		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
+			"[+33]% Strength <vs [Spear Infantry] units>","[+50]% Strength <vs [Warship] units> <when attacking>"],
+		"promotions": ["Rifle-Musket","Sword","Shield","[Janissary] ability","Medical Training"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Elite Rifleman 9A",
 		"unitType": "Missile Infantry",
 		"movement": 2,
@@ -1332,6 +1366,24 @@
 		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
 			"[+33]% Strength <vs [Spear Infantry] units>"],
 		"promotions": ["Rifle-Musket"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Kelduran Janissary 9A",
+		"unitType": "Light Infantry",
+		"uniqueTo": "Keldura",
+		"replaces": "Elite Rifleman 9A",
+		"movement": 2,
+		"strength": 52,
+		"range": 1,
+		"rangedStrength": 52,
+		"cost": 550,
+		"requiredTech": "Advanced Ballistics",
+		"upgradesTo": "Elite Rifleman 10A",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
+			"[+33]% Strength <vs [Spear Infantry] units>","[+50]% Strength <vs [Warship] units> <when attacking>"],
+		"promotions": ["Rifle-Musket","Sword","Shield","[Janissary] ability","Medical Training"],
 		"attackSound": "shot"
 	},
 	{
@@ -1459,6 +1511,23 @@
 		"obsoleteTech": "Modular Weapons",
 		"uniques": ["Gunpowder","Elite","[1] additional attacks per turn","[-25]% Strength <vs [Warship] units> <when attacking>"],
 		"promotions": ["Machine Gun","Dagger"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Boxgunner 11A",
+		"unitType": "Heavy Infantry",
+		"replaces": "Submachine Gunner 11A",
+		"uniqueTo": "Wesitleng Confederation",
+		"movement": 2,
+		"strength": 60,
+		"range": 1,
+		"rangedStrength": 40,
+		"cost": 550,
+		"requiredTech": "Automatic Weapons",
+		"upgradesTo": "Submachine Gunner 12A",
+		"obsoleteTech": "Modular Weapons",
+		"uniques": ["Gunpowder","Elite","[1] additional attacks per turn","[+25]% Strength <vs [Light Infantry] units> <when defending>"],
+		"promotions": ["Machine Gun","Gun Shield","Sword"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1834,6 +1903,22 @@
 		"upgradesTo": "Regular Pikeman 7A",
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["[+50]% Strength <vs [Charioteer] units>","[+50]% Strength <vs [Light Cavalry] units>","[+25]% Strength <vs [Heavy Cavalry] units>"],
+		"promotions": ["Spear","Shield"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Kelduran Felasian 6A",
+		"unitType": "Spear Infantry",
+		"uniqueTo": "Keldura",
+		"replaces": "Regular Spearman 6A",
+		"movement": 2,
+		"strength": 35,
+		"cost": 260,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Regular Pikeman 7A",
+		"obsoleteTech": "Metallurgy",
+		"uniques": ["Militia","[+60]% Strength <vs [Charioteer] units>","[+60]% Strength <vs [Light Cavalry] units>","[+33]% Strength <vs [Heavy Cavalry] units>"],
 		"promotions": ["Spear","Shield"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -2616,6 +2701,7 @@
 		"name": "Sasrama 6A",
 		"unitType": "Heavy Cavalry",
 		"uniqueTo": "Hav Dalkur",
+		"replaces": "Holy Knight 6A",
 		"movement": 4,
 		"strength": 35,
 		"range": 1,
