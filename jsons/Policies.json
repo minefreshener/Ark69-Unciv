@@ -159,6 +159,36 @@
         ]
     },
       {
+        "name": "Patronage",
+        "era": "Fifth Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 20,
+            "Diplomatic": 5,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": ["[-25]% City-State Influence degradation"],
+        "policies": [
+            {
+                "name": "Philantropy",
+                "uniques": ["Gifts of Gold to City-States generate [25]% more Influence"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Mercantile Rights",
+                "uniques": ["Comment [Great Merchant units may enter foreign tiles without open borders]","[+20]% Gold from Great Merchant trade missions"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Consolidation Complete",
+                "uniques": ["[Faith] cost of purchasing items in cities [-20]%"]
+            }
+        ]
+    },
+      {
         "name": "Might",
         "era": "Second Age",
         "priorities": {
@@ -347,8 +377,9 @@
             "Domination": 20,
             "Scientific": 10
         },
-        "uniques": ["[Great General] units gain the [Deterent Tactics] promotion",
-              "All newly-trained [Great General] units [in all cities] receive the [Deterent Tactics] promotion","Only available <before adopting [Attrition Warfare]>"],
+        "uniques": ["Military Doctrine","[Great General] units gain the [Deterent Tactics] promotion",
+              "All newly-trained [Great General] units [in all cities] receive the [Deterent Tactics] promotion","Only available <before adopting [Attrition Warfare]>",
+              "Only available <before adopting [Lightning Warfare]>"],
         "policies": [
             {
                 "name": "Ranged Solutions",
@@ -357,15 +388,15 @@
                 "column": 2
             },
             {
-                "name": "Discipline",
-                "uniques": ["[+10]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"],
+                "name": "Screening",
+                "uniques": ["[+15]% Strength <for [Ranged] units> <when adjacent to a [Melee] unit>"],
                 "row": 1,
                 "column": 4
             },
             {
                 "name": "Heavy Fortifications",
                 "uniques": ["Can build [Fort] improvements at a [+25]% rate","[+1 Production] from every [Fort]"],
-                "requires": ["Discipline"],
+                "requires": ["Screening"],
                 "row": 2,
                 "column": 4
             },
@@ -382,12 +413,123 @@
                 "uniques": ["[+1 Production] from every [Bastions]","[+1 Production] from every [Battery]"],
                 "requires": ["Artillery Superiority","Heavy Fortifications"],
                 "row": 3,
-                "column": 2
+                "column": 3
             },
             {
                 "name": "Deterent Warfare Complete",
                 "uniques": ["[General] units gain the [Deterent Tactics] promotion",
                       "All newly-trained [General] units [in all cities] receive the [Deterent Tactics] promotion"]
+            }
+        ]
+    },
+      {
+        "name": "Attrition Warfare",
+        "era": "Fifth Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 20,
+            "Scientific": 5
+        },
+        "uniques": ["Military Doctrine","[Great General] units gain the [Attrition Tactics] promotion",
+              "All newly-trained [Great General] units [in all cities] receive the [Attrition Tactics] promotion","Only available <before adopting [Deterent Warfare]>",
+              "Only available <before adopting [Lightning Warfare]>"],
+        "policies": [
+            {
+                "name": "Veteran Officers",
+                "uniques": ["[+25]% XP gained from combat <for [Militia] units>"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Discipline",
+                "uniques": ["[+10]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Standardized Equipment",
+                "uniques": ["[+10]% Strength <for [Militia] units>"],
+                "requires": ["Discipline"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Urban Defenses",
+                "uniques": ["Can build [Hamlet] improvements at a [+25]% rate","[+10]% City Strength from defensive buildings"],
+                "requires": ["Veteran Officers"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Mass Conscription",
+                "uniques": ["[Gold] cost of purchasing [All] units [-15]%","[+33]% Production when constructing [Militia] units [in all cities]"],
+                "requires": ["Standardized Equipment","Urban Defenses"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Attrition Warfare Complete",
+                "uniques": ["[General] units gain the [Attrition Tactics] promotion",
+                      "All newly-trained [General] units [in all cities] receive the [Attrition Tactics] promotion"]
+            }
+        ]
+    },
+      {
+        "name": "Lightning Warfare",
+        "era": "Fifth Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 20,
+            "Scientific": 10
+        },
+        "uniques": ["Military Doctrine","[Great General] units gain the [Lightning Tactics] promotion",
+              "All newly-trained [Great General] units [in all cities] receive the [Lightning Tactics] promotion","Only available <before adopting [Deterent Warfare]>",
+              "Only available <before adopting [Attrition Warfare]>"],
+        "policies": [
+            {
+                "name": "Adaptive Tactics",
+                "uniques": ["[+25]% XP gained from combat <for [Heavy Cavalry] units>","[+25]% XP gained from combat <for [Missile Cavalry] units>",
+                      "[+25]% XP gained from combat <for [Motorized Cavalry] units>"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Mobile Strategy",
+                "uniques": ["[+1] Movement <for [Air] units>","[+2] Movement <for [Officer] units>",
+                      "[+1] Movement <for [Light Artillery] units>"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Armoured Assault",
+                "uniques": ["[+33]% Strength <when attacking> <for [Heavy cavalry] units>","[+33]% Strength <when attacking> <for [Motorized cavalry] units>"],
+                "requires": ["Adaptive Tactics"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Transport Infrastructure",
+                "uniques": ["Can build [Road] improvements at a [+25]% rate","Can build [Railroad] improvements at a [+25]% rate"],
+                "requires": ["Mobile Strategy"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Swift Takeover",
+                "uniques": ["Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+                      "[+100]% Production when constructing [Courthouse] buildings [in all cities]"],
+                "requires": ["Armoured Assault","Transport Infrastructure"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Lightning Warfare Complete",
+                "uniques": ["[General] units gain the [Lightning Tactics] promotion",
+                      "All newly-trained [General] units [in all cities] receive the [Lightning Tactics] promotion"]
             }
         ]
     },
