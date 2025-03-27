@@ -231,6 +231,7 @@
     "diplomacy": 4,
     "loyal": 7,
     "expansion": 6,
+    "uniques": ["Will not build [Levy Archer 1A]"],
     "priorities": {
       "Tradition": 4,
       "Liberty": 5,
