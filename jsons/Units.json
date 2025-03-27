@@ -1249,7 +1249,7 @@
 		"obsoleteTech": "Rifling",
 		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
 			"[+33]% Strength <vs [Spear Infantry] units>","[+50]% Strength <vs [Warship] units> <when attacking>"],
-		"promotions": ["Smoothbore Gun","Sword","Shield","[Janissary] ability","Medical Training"],
+		"promotions": ["Smoothbore Gun","Sword","Shield","[Janissary] ability","Medical Training","Quick Study"],
 		"attackSound": "shot"
 	},
 	{
@@ -1349,7 +1349,7 @@
 		"obsoleteTech": "Advanced Ballistics",
 		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
 			"[+33]% Strength <vs [Spear Infantry] units>","[+50]% Strength <vs [Warship] units> <when attacking>"],
-		"promotions": ["Rifle-Musket","Sword","Shield","[Janissary] ability","Medical Training"],
+		"promotions": ["Rifle-Musket","Sword","Shield","[Janissary] ability","Medical Training","Quick Study"],
 		"attackSound": "shot"
 	},
 	{
@@ -1383,7 +1383,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Elite","Gunpowder","[+33]% Strength <vs [Heavy Infantry] units> <when attacking>","[+33]% Strength <vs [Heavy Cavalry] units> <when attacking>",
 			"[+33]% Strength <vs [Spear Infantry] units>","[+50]% Strength <vs [Warship] units> <when attacking>"],
-		"promotions": ["Rifle-Musket","Sword","Shield","[Janissary] ability","Medical Training"],
+		"promotions": ["Rifle-Musket","Sword","Shield","[Janissary] ability","Medical Training","Quick Study"],
 		"attackSound": "shot"
 	},
 	{
