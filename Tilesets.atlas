@@ -899,6 +899,27 @@ TileSets/HexaRealm/Units/Line Infantry 11A
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Units/Kelduran Janissary 7A
+  rotate: false
+  xy: 793, 1552
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Kelduran Janissary 8A
+  rotate: false
+  xy: 793, 1552
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Kelduran Janissary 9A
+  rotate: false
+  xy: 793, 1552
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Elite Rifleman 9A
   rotate: false
   xy: 292, 62
@@ -1215,6 +1236,27 @@ TileSets/HexaRealm/Units/Regular Horse Archer 8A
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Huzvar 6A
+  rotate: false
+  xy: 1606, 1699
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Huzvar 7A
+  rotate: false
+  xy: 1606, 1699
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Huzvar 8A
+  rotate: false
+  xy: 1606, 1699
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Huzvar 9A
   rotate: false
   xy: 1606, 1699
   size: 64, 65
@@ -3091,6 +3133,118 @@ TileSets/HexaRealm/Units/Armoured Car 11A
 TileSets/HexaRealm/Units/Armoured Car 12A
   rotate: false
   xy: 1700, 1321
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Warrior Druid 3A
+  rotate: false
+  xy: 861, 1221
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Warrior Druid 4A
+  rotate: false
+  xy: 861, 1221
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Warrior Druid 5A
+  rotate: false
+  xy: 861, 1221
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Warrior Druid 6A
+  rotate: false
+  xy: 861, 1221
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Lion Warrior 6A
+  rotate: false
+  xy: 721, 1534
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Lion Warrior 7A
+  rotate: false
+  xy: 721, 1534
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Lion Warrior 8A
+  rotate: false
+  xy: 721, 1534
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Lion Warrior 9A
+  rotate: false
+  xy: 721, 1534
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Royal Honsir 4A
+  rotate: false
+  xy: 1318, 1689
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Royal Honsir 5A
+  rotate: false
+  xy: 1318, 1689
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Royal Honsir 6A
+  rotate: false
+  xy: 1318, 1689
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Royal Honsir 7A
+  rotate: false
+  xy: 1318, 1689
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Sasrama 3A
+  rotate: false
+  xy: 364, 273
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Sasrama 4A
+  rotate: false
+  xy: 364, 273
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Sasrama 5A
+  rotate: false
+  xy: 865, 1497
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Sasrama 6A
+  rotate: false
+  xy: 865, 1497
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
