@@ -42,6 +42,15 @@
         "row": 4
     	},
 	{
+	"name": "Execution",
+	"prerequisites": ["Assassination III"],
+	"uniques": ["[+50]% Strength <vs [Wounded] units>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 1,
+        "row": 4
+    	},
+	{
 	"name": "Sword",
         "column": 2,
         "row": 1
@@ -84,7 +93,8 @@
     	},
 	{
 	"name": "March",
-	"prerequisites": ["Woodsman","Amphibious","Extended Range","Volley","Mobility","Blitz","Suspension Upgrade","Indirect Fire","Supply","Piracy","Extended Magazine"],
+	"prerequisites": ["Woodsman","Amphibious","Extended Range","Volley","Mobility","Blitz","Suspension Upgrade","Indirect Fire","Supply","Piracy","Extended Magazine",
+		"Amphibious","Endurance","Forest of Spears","Execution"],
 	"uniques": ["Unit will heal every turn, even if it performs an action"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -282,6 +292,15 @@
         "row": 4
     	},
 	{
+	"name": "Forest Of Spears",
+	"prerequisites": ["Phalanx III"],
+	"uniques": ["[+50]% Strength <when defending> <when adjacent to a [Spear Infantry] unit>","[+2] HP when healing <when adjacent to a [Spear Infantry] unit>"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 7,
+        "row": 5
+    	},
+	{
 	"name": "Shield",
         "column": 8,
         "row": 1
@@ -423,7 +442,7 @@
     	},
 	{
 	"name": "Blitz",
-	"prerequisites": ["Charge III"],
+	"prerequisites": ["Charge III","Assasination III"],
 	"uniques": ["[1] additional attacks per turn"],
 	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
 		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
@@ -1162,6 +1181,42 @@
 	"name": "Medical Training",
         "column": 48,
         "row": 1
+    	},
+	{
+	"name": "Medic I",
+	"prerequisites": ["Medical Training"],
+	"uniques": ["All adjacent units heal [+5] HP when healing"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 48,
+        "row": 2
+    	},
+	{
+	"name": "Medic II",
+	"prerequisites": ["Medic I"],
+	"uniques": ["All adjacent units heal [+5] HP when healing"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 48,
+        "row": 3
+    	},
+	{
+	"name": "Medic III",
+	"prerequisites": ["Medic II"],
+	"uniques": ["All adjacent units heal [+5] HP when healing"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 48,
+        "row": 4
+    	},
+	{
+	"name": "Endurance",
+	"prerequisites": ["Medic III"],
+	"uniques": ["[+5] HP when healing"],
+	"unitTypes": ["Light Infantry","Heavy Infantry","Spear Infantry","Missile Infantry","Charioteer","Light Cavalry","Heavy Cavalry","Missile Cavalry","Siege",
+		"Light Artillery","Heavy Artillery","Warship","Water Carrier","Submarine","Hovering","Motorized Cavalry","Mech","Airplane","Hybrid Cavalry"],
+        "column": 48,
+        "row": 5
     	},
 	{
 	"name": "Mace",
