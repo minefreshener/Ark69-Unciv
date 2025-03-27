@@ -348,7 +348,7 @@
             "Scientific": 10
         },
         "uniques": ["[Great General] units gain the [Deterent Tactics] promotion",
-              "All newly-trained [Great General] units [in all cities] receive the [Deterent Tactics] promotion"],
+              "All newly-trained [Great General] units [in all cities] receive the [Deterent Tactics] promotion","Only available <before adopting [Attrition Warfare]>"],
         "policies": [
             {
                 "name": "Ranged Solutions",
