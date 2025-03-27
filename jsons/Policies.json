@@ -160,13 +160,13 @@
     },
       {
         "name": "Patronage",
-        "era": "Fifth Age",
+        "era": "Sixth Age",
         "priorities": {
             "Neutral": 5,
-            "Cultural": 20,
-            "Diplomatic": 5,
-            "Domination": 10,
-            "Scientific": 0
+            "Cultural": 5,
+            "Diplomatic": 20,
+            "Domination": 5,
+            "Scientific": 10
         },
         "uniques": ["[-25]% City-State Influence degradation"],
         "policies": [
@@ -177,14 +177,71 @@
                 "column": 1
             },
             {
-                "name": "Mercantile Rights",
-                "uniques": ["Comment [Great Merchant units may enter foreign tiles without open borders]","[+20]% Gold from Great Merchant trade missions"],
+                "name": "Embassies",
+                "uniques": ["Resting point for Influence with City-States is increased by [20]"],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "Consolidation Complete",
-                "uniques": ["[Faith] cost of purchasing items in cities [-20]%"]
+                "name": "Luxury Imports",
+                "uniques": ["[+50]% Happiness from luxury resources gifted by City-States"],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Cooperative Projects",
+                "uniques": ["[+100]% resources gifted by City-States"],
+                "requires": ["Philantropy"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Diplomatic Immunity",
+                "uniques": ["Comment [Great Merchant units may enter foreign tiles without open borders]","[+20]% Gold from Great Merchant trade missions"],
+                "requires": ["Embassies"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Client States",
+                "uniques": ["Military Units gifted from City-States start with [15] XP","Gain [5] Influence with a [Military] gift to a City-State"],
+                "requires": ["Embassies","Luxury Imports"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Cultural Diplomacy",
+                "uniques": ["Allied City-States provide [Culture] equal to [15]% of what they produce for themselves",
+                      "Resting point for Influence with City-States is increased by [10]"],
+                "requires": ["Luxury Imports","Embassies"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Research Cooperation",
+                "uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves"],
+                "requires": ["Cooperative Projects"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Foreign Education",
+                "uniques": ["Allied City-States will occasionally gift Great People"],
+                "requires": ["Diplomatic Immunity","Cooperative Projects"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Local Hegemony",
+                "uniques": ["Allied City-States provide [Gold] equal to [15]% of what they produce for themselves","[+20]% spy effectiveness [in all cities]"],
+                "requires": ["Diplomatic Immunity","Cultural Diplomacy"],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Patronage Complete",
+                "uniques": ["Influence of all other civilizations with all city-states degrades [33]% faster",
+                      "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"]
             }
         ]
     },
@@ -252,6 +309,163 @@
             {
                 "name": "Might Complete",
                 "uniques": ["Provides a [Barracks] in your first [5] cities for free","Earn [25]% of killed [Military] unit's [Strength] as [Culture]"]
+            }
+        ]
+    },
+      {
+        "name": "Vocationalism",
+        "era": "Sixth Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 10,
+            "Scientific": 20
+        },
+        "uniques": ["Educational Ideology","Comment [Unlocks The Vocational School building]"],
+        "policies": [
+            {
+                "name": "Academic Specialization",
+                "uniques": ["[+1 Gold, +1 Production, +1 Food] from every [Scientist]"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Humanism",
+                "uniques": ["[+1 Happiness] from every [University]","[+1 Happiness] from every [Vocational School]","[+1 Happiness] from every [Public School]"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Planned Careers",
+                "uniques": ["[+1 Science] from every specialist [in all cities]"],
+                "requires": ["Academic Specialization"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Practical Science",
+                "uniques": ["[+10]% [Production] from every [University]","[+5]% [Production] from every [Public School]"],
+                "requires": ["Humanism"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Market Of Ideas",
+                "uniques": ["[+1 Science] from every [Trading post]","[+2 Gold] from every [University]","[+1 Gold] from every [Public School]"],
+                "requires": ["Planned Careers","Practical Science"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Vocationalism Complete",
+                "uniques": ["[1] Free Technologies","May buy [Great Scientist] units for [2000] [Gold] [in all cities] at an increasing price ([1000])"]
+            }
+        ]
+    },
+      {
+        "name": "Theologism",
+        "era": "Fifth Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 10,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 10
+        },
+        "uniques": ["Educational Ideology","Comment [Unlocks The Theological Order building]","Only available <before adopting [Innovation]>"],
+        "policies": [
+            {
+                "name": "Religious Studies",
+                "uniques": ["[+2 Faith] from every [Scientist]","[+1 Science] from every [Grand Temple]"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Scientific Doctrines",
+                "uniques": ["[+1 Science] from every [Shrine]","[+1 Science] from every [Temple]"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Academic Priesthood",
+                "uniques": ["[+10]% [Faith] from every [University]","[+2 Science] from every [Priest]"],
+                "requires": ["Religious Studies"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Fundamentalism",
+                "uniques": ["[+5]% [Production] from every [Grand Temple]","[+2]% [Production] from every [Temple]","[+1 Production] from every [Priest]"],
+                "requires": ["Scientific Doctrines"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "School Preachers",
+                "uniques": ["[+5]% [Faith] from every [Public School]","[+5]% [Faith] from every [Vocational School]"],
+                "requires": ["Academic Priesthood","Fundamentalism"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Theologism Complete",
+                "uniques": ["Gain a free [Follower] belief","May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500])"]
+            }
+        ]
+    },
+      {
+        "name": "Innovation",
+        "era": "Eighth Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 20
+        },
+        "uniques": ["Educational Ideology","[+10]% [Science] <while the empire is happy>","Only available <before adopting [Theologism]>"],
+        "policies": [
+            {
+                "name": "Secularism",
+                "uniques": ["[+2 Science] from every specialist [in all cities]"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Research Patents",
+                "uniques": ["[+1 Gold] from every [University]","[+2 Gold] from every [Scientist]"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Exchange Of Knowledge",
+                "uniques": ["[+1 Science] [in all cities connected to capital]","Science gained from research agreements [+50]%"],
+                "requires": ["Secularism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Discovery Monetization",
+                "uniques": ["[+1 Gold] from every [Observatory]","[+10]% [Science] from every [University]","[+1 Gold] from every [Museum]",
+                      "[+1 Gold] from every [Medical Lab]","[+1 Gold] from every [Diplomatic College]","[+1 Gold] from every [Public School]",
+                      "[+1 Gold] from every [Vocational School]"],
+                "requires": ["Research Patents"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Progress for Progress",
+                "uniques": ["[+5]% [Science] from every [Ironworks]","[+2]% [Science] from every [Public Works Administration]","[+2]% [Science] from every [Factory]",
+                      "[+2]% [Science] from every [Mason's Guild]","[+2]% [Science] from every [Stock Exchange]","[+5]% [Science] from every [Public School]",
+                      "Gain [50] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>"],
+                "requires": ["Exchange Of Knowledge","Discovery Monetization"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Innovation Complete",
+                "uniques": ["[2] Free Technologies"]
             }
         ]
     },
