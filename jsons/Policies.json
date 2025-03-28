@@ -359,7 +359,7 @@
             },
             {
                 "name": "Vocationalism Complete",
-                "uniques": ["[1] Free Technologies","May buy [Great Scientist] units for [2000] [Gold] [in all cities] at an increasing price ([1000])"]
+                "uniques": ["[1] Free Technologies","May buy [Great Scientist] units for [1000] [Gold] [in all cities] at an increasing price ([1000])"]
             }
         ]
     },
@@ -470,6 +470,185 @@
         ]
     },
       {
+        "name": "Industrial Capitalism",
+        "era": "Ninth Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": ["Economic Ideology","[+2 Gold] from every [Merchant]","Only available <before adopting [Natural Capitalism]>"],
+        "policies": [
+            {
+                "name": "Monopolization",
+                "uniques": ["[+1 Gold] from every [Strategic resource]"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Free Market",
+                "uniques": ["[+2 Gold] from every [Stock Exchange]","[+1 Gold] from every [Market]"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Privatization",
+                "uniques": ["[-50]% maintenance on road & railroads","[+1 Gold, -2 Food] from every [Hospital]","[+2 Gold, -1 Production] from every [Factory]",
+                      "[+2 Gold, -2 Science] from every [Public School]","[+2 Gold, -2 Production] from every [Vocational School]","[+1 Gold] from every [Bank]",
+                      "[-4 Gold] from every [National Treasury]"],
+                "requires": ["Monopolization"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Venture Capital",
+                "uniques": ["Gifts of Gold to City-States generate [20]% more Influence","[Gold] cost of purchasing items in cities [-10]%",
+                      "[+50]% Gold from Great Merchant trade missions"],
+                "requires": ["Free Market"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Entrepreneurship",
+                "uniques": ["[Great Merchant] is earned [20]% faster","[+1 Gold] from every specialist [in all cities]","[+1 Happiness] from every [Stock Exchange]"],
+                "requires": ["Privatization","Venture Capital"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Industrial Capitalism Complete",
+                "uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]",
+                      "May buy [Great Merchant] units for [1000] [Gold] [in all cities] at an increasing price ([1000])"]
+            }
+        ]
+    },
+      {
+        "name": "Natural Capitalism",
+        "era": "Ninth Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 20,
+            "Diplomatic": 10,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": ["Economic Ideology","[+1 Gold, +1 Culture] from every [Merchant]","Only available <before adopting [Industrial Capitalism]>"],
+        "policies": [
+            {
+                "name": "Efficient Consumption",
+                "uniques": ["[+1 Production] from every [Strategic resource]"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Generalized Markets",
+                "uniques": ["[-3 Gold, +1 Food, +1 Production, +1 Culture] from every [Market]"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Industry Standards",
+                "uniques": ["[-1 Gold, +1 Food] from every [Hospital]","[-1 Gold, +1 Production] from every [Factory]",
+                      "[-1 Gold, +1 Science] from every [Vocational School]","[+1 Gold] from every [Bank]"],
+                "requires": ["Efficient Consumption"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Localized Production",
+                "uniques": ["[+1 Culture] from every [Strategic resource]","[+1 Gold, +1 Happiness] from every [Bartering Hall]"],
+                "requires": ["Generalized Markets"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Nativization",
+                "uniques": ["[-15]% maintenance cost for buildings [in all cities]","[+5 Production] from every [Ironworks]","[+3 Culture] from every [National Epic]",
+                      "[+5 Gold] from every [National Treasury]","[+2 Gold] from every [Grand Temple]","[+1 Gold] from every [Public Works Administration]",
+                      "[-50]% Happiness from luxury resources gifted by City-States","[-50]% resources gifted by City-States","[-50]% Gold from Great Merchant trade missions",
+                      "[Gold] cost of purchasing items in cities [-20]%"],
+                "requires": ["Industry Standards","Localized production"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Career Subsidies",
+                "uniques": ["[-1 Gold, +2 Food] from every [Farmer]","[-1 Gold, +2 Production] from every [Engineer]","[-1 Gold, +2 Science] from every [Scientist]",
+                      "[-1 Gold, +2 Culture] from every [Artist]","[-1 Gold, +1 Happiness] from every [Performer]","[-1 Gold, +2 Faith] from every [Priest]",
+                      "[-1 Gold, +1 Culture, +1 Faith] from every [Shaman]"],
+                "requires": ["Localized production"],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Natural Capitalism Complete",
+                "uniques": ["[+10]% [Gold] <while the empire is happy>","May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500])"]
+            }
+        ]
+    },
+      {
+        "name": "Socialism",
+        "era": "Ninth Age",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 10,
+            "Diplomatic": 20,
+            "Domination": 10,
+            "Scientific": 5
+        },
+        "uniques": ["Economic Ideology","[-1 Gold, +2 Production] from every [Merchant]","Only available <before adopting [Industrial Capitalism]>"],
+        "policies": [
+            {
+                "name": "Planned Economy",
+                "uniques": ["[+2 Production] from every [Factory]","[+1 Science] from every [Public Works Administration]"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Social Security",
+                "uniques": ["[+1 Happiness, +1 Gold] from every [Courthouse]","[+1 Food] from every specialist [in all cities]"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Nationalization",
+                "uniques": ["[+1 Production] from every [Strategic resource]","[Great Engineer] is earned [25]% faster","[+2]% [Production] [in all cities]",
+                      "[+1 Production] from every [Public Works Administration]"],
+                "requires": ["Planned Economy"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Welfare State",
+                "uniques": ["[+1 Gold] from every [Town Hall]","[+1 Food, -1 Gold] from every [Hospital]","[+1 Food, -1 Gold] from every [Medical Lab]"],
+                "requires": ["Social Security"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Fair Trade",
+                "uniques": ["[+1 Production] from every [Market]","[+1 Gold] from every [Public Works Administration]"],
+                "requires": ["Nationalization","Welfare State"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Populism",
+                "uniques": ["[+1 Happiness] from every [Farmstead]","[+1 Food] from every [Town Hall]","[+1 Food, +1 Production] from every [Farmer]",
+                      "Each city founded increases culture cost of policies [33]% less than normal"],
+                "requires": ["Welfare State"],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Socialism Complete",
+                "uniques": ["[+10]% [Production] <while the empire is happy>","May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500])"]
+            }
+        ]
+    },
+      {
         "name": "Monarchy",
         "era": "Fourth Age",
         "priorities": {
@@ -479,7 +658,7 @@
             "Domination": 10,
             "Scientific": 5
         },
-        "uniques": ["Government Ideology","Unlocks The Royal Court Building","[+10]% Production when constructing [Courthouse] buildings [in all cities]",
+        "uniques": ["Political Ideology","Unlocks The Royal Court Building","[+10]% Production when constructing [Courthouse] buildings [in all cities]",
               "Only available <before adopting [Democracy]>"],
         "policies": [
             {
@@ -539,7 +718,7 @@
             "Domination": 10,
             "Scientific": 5
         },
-        "uniques": ["Government Ideology","Unlocks The Congress Building","[+10]% Production when constructing [Courthouse] buildings [in all cities]",
+        "uniques": ["Political Ideology","Unlocks The Congress Building","[+10]% Production when constructing [Courthouse] buildings [in all cities]",
               "Only available <before adopting [Monarchy]>"],
         "policies": [
             {
