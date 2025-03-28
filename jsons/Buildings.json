@@ -1808,7 +1808,7 @@
 		"requiredTech": "Guilds",
 		"uniques": ["[+1 Gold] per [6] population [in this city]","[+1 Gold] from [Customs House] tiles [in this city]",
 			"Enables conversion of city production to [Gold]","[+1 Gold] <after discovering [Civil Service]>","[+2 Culture] <after discovering [Urbanization]>",
-			"Only available <after discovering [Guilds]>"]
+			"Only available <after discovering [Guilds]>","Limited to [2] per Civilization"]
 	},
 	{
 		"name": "Trading Company",
@@ -1817,7 +1817,8 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade Companies",
 		"uniques": ["[+1 Gold] per [10] population [in this city]","[+2 Gold] from [Customs house] tiles [in this city]",
-			"[+1 Gold] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>","Enables conversion of city production to [Gold]"]
+			"[+1 Gold] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>","Enables conversion of city production to [Gold]",
+			"Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Military Order",
@@ -1827,7 +1828,8 @@
 		"requiredTech": "Holy Orders",
 		"uniques": ["[+1 Faith] per [8] population [in this city]","All newly-trained [Feudal] units [in this city] receive the [Survivalism I] promotion",
 			"New [Feudal] units start with [20] Experience [in this city]","[+1 Production] from [Holy Site] tiles [in this city]",
-			"[-2 Culture] <after discovering [Urbanization]>","Only available <after discovering [Guilds]>","Enables conversion of city production to [Faith]"]
+			"[-2 Culture] <after discovering [Urbanization]>","Only available <after discovering [Guilds]>","Enables conversion of city production to [Faith]",
+			"Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Theological Order",
@@ -1836,7 +1838,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Holy Orders",
 		"uniques": ["[+1 Faith] per [6] population [in this city]","[+1 Faith] from [Holy Site] tiles [in this city]","Only available <after discovering [Guilds]>",
-			"Enables conversion of city production to [Faith]","Only available <after adopting [Theologism]>"]
+			"Enables conversion of city production to [Faith]","Only available <after adopting [Theologism]>","Limited to [3] per Civilization"]
 	},
 	{
 		"name": "Military Contractor",
@@ -1844,7 +1846,8 @@
 		"production": -5,
 		"maintenance": 7,
 		"hurryCostModifier": 25,
-		"uniques": ["[+30]% Production when constructing [Military] units [in this city]","[+2 Production] from [Manufactory] tiles [in this city]"],
+		"uniques": ["[+30]% Production when constructing [Military] units [in this city]","[+2 Production] from [Manufactory] tiles [in this city]",
+			"Limited to [1] per Civilization"],
 		"requiredTech": "Automatic Weapons"
 	},
 	{
@@ -1856,7 +1859,7 @@
 		"uniques": ["[+1 Science] per [8] population [in this city]","All newly-trained [Magic] units [in this city] receive the [Armor Plating I] promotion",
 			"New [Magic] units start with [20] Experience [in this city]","New [Gunpowder] units start with [20] Experience [in this city]",
 			"[+1 Production] from [Academy] tiles [in this city]","Only available <after discovering [Guilds]>","[+2 Science] <after discovering [Empiricism]>",
-			"Enables conversion of city production to [Science]"]
+			"Enables conversion of city production to [Science]","Limited to [2] per Civilization"]
 	},
 	{
 		"name": "Magician's Guild",
@@ -1866,7 +1869,7 @@
 		"requiredTech": "Magical Materials",
 		"uniques": ["[+1 Science, +1 Culture] per [6] population [in this city]","New [Magic] units start with [40] Experience [in this city]",
 			"[+1 Culture] from [Academy] tiles [in this city]","Only available <after discovering [Guilds]>",
-			"[+1 Science, +1 Culture] <after discovering [Empiricism]>","Enables conversion of city production to [Science]"]
+			"[+1 Science, +1 Culture] <after discovering [Empiricism]>","Enables conversion of city production to [Science]","Limited to [2] per Civilization"]
 	},
 	{
 		"name": "University",
@@ -1876,7 +1879,7 @@
 		"requiredTech": "Education",
 		"uniques": ["[+1 Science] per [6] population [in this city]","New [Magic] units start with [10] Experience [in this city]",
 			"[+1 Science] from [Academy] tiles [in this city]","Only available <after discovering [Guilds]>","[+2 Science] <after discovering [Empiricism]>",
-			"Enables conversion of city production to [Science]"]
+			"Enables conversion of city production to [Science]","Limited to [2] per Civilization"]
 	},
 	{
 		"name": "Inventor's Guild",
@@ -1887,7 +1890,7 @@
 		"uniques": ["[+1 Production] per [8] population [in this city]","New [Light Artillery] units start with [20] Experience [in this city]",
 			"New [Heavy Artillery] units start with [20] Experience [in this city]","[+1 Production] from [Academy] tiles [in this city]",
 			"[+1 Production] from [Manufactory] tiles [in this city]","Only available <after discovering [Guilds]>","[+2 Science] <after discovering [Empiricism]>",
-			"Enables conversion of city production to [Science]"]
+			"Enables conversion of city production to [Science]","Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Mason's Guild",
@@ -1896,7 +1899,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Architecture",
 		"uniques": ["[+1 Production] per [6] population [in this city]","[+1 Production] from [Landmark] tiles [in this city]",
-			"[+10]% Production when constructing [All] buildings [in this city]","Only available <after discovering [Guilds]>"]
+			"[+10]% Production when constructing [All] buildings [in this city]","Only available <after discovering [Guilds]>","Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Construction Company",
@@ -1905,7 +1908,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Industrial Architecture",
 		"uniques": ["[+1 Production] per [4] population [in this city]","[+2 Production] from [Landmark] tiles [in this city]",
-			"[+20]% Production when constructing [All] buildings [in this city]","Only available <after discovering [Guilds]>"]
+			"[+20]% Production when constructing [All] buildings [in this city]","Only available <after discovering [Guilds]>","Limited to [3] per Civilization"]
 	},
 	{
 		"name": "Labor Union",
@@ -1915,7 +1918,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Industrialization",
 		"uniques": ["[-1 Production, +1 Happiness] per [6] population [in this city]","[-1 Production, +1 Happiness] from [Manufactory] tiles [in this city]",
-			"[+15]% Production when constructing [All] buildings [in this city]","Only available <after discovering [Guilds]>"]
+			"[+15]% Production when constructing [All] buildings [in this city]","Only available <after discovering [Guilds]>","Limited to [2] per Civilization"]
 	},
 	{
 		"name": "Manufacturing Company",
@@ -1925,7 +1928,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Corporations",
 		"uniques": ["[+1 Production] per [10] population [in this city]","[+3 Gold, -1 Food] from [Manufactory] tiles [in this city]",
-			"[+1 Production] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>"]
+			"[+1 Production] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>","Limited to [3] per Civilization"]
 	},
 	{
 		"name": "Cartographer's Guild",
@@ -1933,7 +1936,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Advanced Cartography",
 		"uniques": ["[+1 Science] per [10] population [in this city]","New [Scout] units start with [20] Experience [in this city]",
-			"Only available <after discovering [Guilds]>"]
+			"Only available <after discovering [Guilds]>","Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Historical Society",
@@ -1942,7 +1945,7 @@
 		"requiredTech": "Historical Studies",
 		"uniques": ["[+1 Culture] per [6] population [in this city]","New [Officer] units start with [10] Experience [in this city]",
 			"[+1 Culture] from [Academy] tiles [in this city]","[+1 Culture] from [Landmark] tiles [in this city]",
-			"Only available <after discovering [Guilds]>","Enables conversion of city production to [Culture]"]
+			"Only available <after discovering [Guilds]>","Enables conversion of city production to [Culture]","Limited to [1] per Civilization"]
 	},
 	{
 		"name": "Film Studio",
@@ -1951,7 +1954,8 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Film",
 		"uniques": ["[+1 Culture] per [4] population [in this city]","[+1 Culture] from [Manufactory] tiles [in this city]",
-			"[+1 Happiness] from [Landmark] tiles [in this city]","Only available <after discovering [Guilds]>","Enables conversion of city production to [Culture]"]
+			"[+1 Happiness] from [Landmark] tiles [in this city]","Only available <after discovering [Guilds]>","Enables conversion of city production to [Culture]",
+			"Limited to [2] per Civilization"]
 	},
 	{
 		"name": "Food Company",
@@ -1961,6 +1965,6 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Corporations",
 		"uniques": ["[+1 Food] per [10] population [in this city]","[+1 Food, -1 Production] from [Manufactory] tiles [in this city]",
-			"[+1 Food] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>"]
+			"[+1 Food] from [Luxury Resource] tiles [in this city]","Only available <after discovering [Guilds]>","Limited to [2] per Civilization"]
 	},
 ]
