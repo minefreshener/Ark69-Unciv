@@ -583,6 +583,7 @@
 				"name": "Civil Engineering",
 				"row": 5,
 				"prerequisites": ["Physics","Military Construction"],
+				"uniques": ["[+3 Production] from every [Leader's Lodge]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -676,12 +677,16 @@
 				"name": "Urbanization",
 				"row": 7,
 				"prerequisites": ["Land Clearence","Defined Borders","Paved Roads"],
+				"uniques": ["[+1 Culture] from every [Gathering Square]","[+1 Culture] from every [Town Hall]","[+1 Culture] from every [Public Sewers]",
+					"[-1 Culture] from every [Farmstead]","[-1 Culture] from every [Agricultural Estate]",
+					"[-1 Culture] from every [Landowner's Council]","[-1 Culture] from every [Feudal Estate]","[-1 Culture] from every [Shamanic Lodge]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Military Magic",
 				"row": 9,
 				"prerequisites": ["Land Ownership","Land Clearence","Elephant Taming"],
+				"uniques": ["[+1 Production] from every [Magic Academy]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -734,12 +739,15 @@
 				"name": "Reservism",
 				"row": 7,
 				"prerequisites": ["Urbanization","The Crossbow"],
+				"uniques": ["[+3 Culture] from every [Tower Of Teshunomke]","[+2 Culture] from every [Heroic Epic]",
+					"[+1 Culture] from every [Mustering Hall]","[+1 Culture] from every [Armory]","[+1 Culture] from every [Barracks]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Enchanting",
 				"row": 9,
 				"prerequisites": ["Military Magic","Feudalism"],
+				"uniques": ["[+1 Science] from every [Magic Academy]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			}
 
@@ -768,18 +776,24 @@
 				"name": "Civil Service",
 				"row": 7,
 				"prerequisites": ["Professional Workforce","Reservism"],
+				"uniques": ["[+1 Production] from every [Courthouse]","[+1 Production] from every [Town Hall]",
+					"[+2 Culture] from every [Public Works Administration]","[+1 Culture] from every [Diplomatic Confluence]",
+					"[+1 Production] from every [Brick Works]","[+1 Production] from every [Steel Mill]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Artificing",
 				"row": 8,
 				"prerequisites": ["Enchanting"],
+				"uniques": ["[+1 Production] from every [Tinkerer's Workshop]","[+1 Science] from every [Magic Academy]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Alchemy",
 				"row": 9,
 				"prerequisites": ["Enchanting","Wind Power"],
+				"uniques": ["[+1 Production] from every [Casting Basin]","[+1 Production] from every [Bronzesmith]","[+1 Production] from every [Steel Mill]",
+					"[+1 Science] from every [Magic Academy]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -820,6 +834,8 @@
 				"name": "Education",
 				"row": 8,
 				"prerequisites": ["Artificing","Alchemy","Civil Service"],
+				"uniques": ["[+3 Science] from every [Leader's Lodge]","[+1 Science] from every [Town Hall]","[+1 Faith] from every [Monastery]",
+					"[+1 Science] from every [Library]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -854,6 +870,7 @@
 				"name": "Compass",
 				"row": 6,
 				"prerequisites": ["Advanced Engineering","Education"],
+				"uniques": ["[+1 Science, +1 Production] from every [Watchtower]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -981,12 +998,14 @@
 				"name": "Artistic Education",
 				"row": 7,
 				"prerequisites": ["Acoustics","Astronomy"],
+				"uniques": ["[+3 Culture] from every [Leader's Lodge]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Magical Materials",
 				"row": 8,
 				"prerequisites": ["Metallurgy","Astronomy"],
+				"uniques": ["[+1 Science] from every [Alloy Basin]","[+1 Science] from every [Magic Crystal Processor]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1033,6 +1052,7 @@
 				"name": "Crystal Synthesis",
 				"row": 8,
 				"prerequisites": ["Magical Materials"],
+				"uniques": ["[+1 Science] from every [Magic Academy]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1061,12 +1081,14 @@
 				"name": "Economics",
 				"row": 5,
 				"prerequisites": ["Whaling","Rocketry","Crystal Synthesis"],
+				"uniques": ["[+3 Gold] from every [Leader's Lodge]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Empiricism",
 				"row": 6,
 				"prerequisites": ["Advanced Cartography"],
+				"uniques": ["[+1 Science] from every [Sundial]","[+1 Science] from every [Star Chart]","[+1 Science] from every [Library]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1113,6 +1135,7 @@
 				"name": "Scientific Method",
 				"row": 6,
 				"prerequisites": ["Empiricism","Oceanography"],
+				"uniques": ["[+1 Science] from every [Military Engineering Workshop]","[+1 Science] from every [Observatory]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1148,12 +1171,14 @@
 				"name": "Industrialization",
 				"row": 5,
 				"prerequisites": ["Colonization","Advanced Machinery","Scientific Method"],
+				"uniques": ["[+1 Production] from every [Colonial Administration]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Public Schooling",
 				"row": 6,
 				"prerequisites": ["Scientific Method","Advanced Government"],
+				"uniques": ["[+1 Culture] from every [Diplomatic College]","[+1 Culture] from every [Government Procurement Office]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1188,6 +1213,7 @@
 				"name": "Steam Engine",
 				"row": 4,
 				"prerequisites": ["Industrialization"],
+				"uniques": [],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1200,6 +1226,7 @@
 				"name": "Archaeology",
 				"row": 6,
 				"prerequisites": ["Public Schooling"],
+				"uniques": ["[+1 Culture] from every [Boneworks]","[+1 Culture] from every [Bone Excavation Site]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1246,6 +1273,11 @@
 				"name": "Historical Studies",
 				"row": 6,
 				"prerequisites": ["Industrial Education","Archaeology"],
+				"uniques": ["[+3 Culture] from every [National Epic]","[+1 Culture] from every [Palace]","[+1 Culture] from every [Grand Temple]",
+					"[+1 Culture] from every [Monument]","[+1 Culture] from every [Shrine]","[+1 Culture] from every [Warrior Temple]",
+					"[+1 Culture] from every [Sacrificial Altar]","[+1 Culture] from every [Monastery]","[+1 Culture] from every [Ziggurat]",
+					"[+1 Culture] from every [Sundial]","[+1 Culture] from every [Castle]","[+1 Culture] from every [Wizard Tower]",
+					"[+1 Culture] from every [Library]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1264,6 +1296,7 @@
 				"name": "Fertilizer",
 				"row": 9,
 				"prerequisites": ["Biology"],
+				"uniques": ["[+3 Food] from every [Leader's Lodge]","[+1 Food] from every [Granary]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 
@@ -1504,6 +1537,7 @@
 				"name": "Magical Energy",
 				"row": 6,
 				"prerequisites": ["Electromagnetics","Radar"],
+				"uniques": ["[+1 Science] from every [Magic Academy]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1572,6 +1606,7 @@
 				"name": "Ecology",
 				"row": 5,
 				"prerequisites": ["Pharmaceuticals","Crystal Fabrication"],
+				"uniques": ["[+1 Culture] from every [Sacred Grove]","[+1 Culture] from every [Garden]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
@@ -1630,6 +1665,7 @@
 				"name": "Magical Hypercombustion Theory",
 				"row": 8,
 				"prerequisites": ["Ecology","Television","Advanced Radar"],
+				"uniques": ["[+2 Science] from every [Magic Academy]"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 
