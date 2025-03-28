@@ -45,7 +45,7 @@
 	{
 		"name": "The Samborlin",
 		"leaderName": "Samborl",
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Religious",
 		"adjective": ["Samborlin"],
 		"startBias": ["Mountain","Grassland"],
 		"startIntroPart1": "Sample text.",
@@ -119,7 +119,7 @@
 		"leaderName": "Amoga",
 		"adjective": ["Havic"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Religious",
 		
 		"startIntroPart1": "placeholder text",
 		"startIntroPart2": "Placeholder text",
@@ -454,7 +454,7 @@
 		"leaderName": "Dulu",
 		"preferredVictoryType": "Domination",
 		"adjective": ["Duludani"],
-		"startBias": ["Grassland"],
+		"startBias": ["Grassland","Tundra"],
 		"startIntroPart1": "Sample text.",
 		"startIntroPart2": "Sample text.",
 		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
@@ -486,6 +486,25 @@
 		"uniqueName": "Pen Keepers",
 		"uniques": ["[+1 Faith] from [Pasture] tiles [in all cities]","[+10]% Strength <within [1] tiles of a [Pasture]>"],
 		"cities": ["Lurmopoleis","Telaneilezra","Lurum Tezikon","Tofelon","Felapoleis","Aseikon","Lurum Nomheikon","laneifon","Zulon"]
+	},
+	{
+		"name": "Kirmlezra",
+		"leaderName": "Paleitos",
+		"preferredVictoryType": "Domination",
+		"adjective": ["Kirmish"],
+		"startBias": ["Grassland"],
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
+		"attacked": "You dare have the courage to challenge me, but no fear, for I will sweep you out of history.",
+		"defeated": "You have the guts to call my body a corpse but beware, I know what will happen to our future.",
+		"introduction": "If I am cut, Do I not bleed?",
+		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
+        	"outerColor": [180, 178, 164],
+        	"innerColor": [8, 8, 166],
+		"uniqueName": "Spears Of Fornikeis",
+		"uniques": ["[+10]% Strength <for [Spear Infantry] units>","[+10]% Strength <for [Spear Infantry] units> <within [1] tiles of a [Fort]>"],
+		"cities": ["Kirmopoulos","Tenevos","Felapoulos","Kevenon","Kerinon","Aseipoulos","Temekon","Hofaulos","Kolopoulos"]
 	},
 	{
 	"name": "Barbarians",
