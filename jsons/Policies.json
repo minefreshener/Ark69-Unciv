@@ -479,7 +479,8 @@
             "Domination": 5,
             "Scientific": 5
         },
-        "uniques": ["Economic Ideology","[+2 Gold] from every [Merchant]","Only available <before adopting [Natural Capitalism]>"],
+        "uniques": ["Economic Ideology","[+2 Gold] from every [Merchant]","Only available <before adopting [Natural Capitalism]>",
+              "Only available <before adopting [Socialism]>"],
         "policies": [
             {
                 "name": "Monopolization",
@@ -613,9 +614,8 @@
                 "column": 4
             },
             {
-                "name": "Nationalization",
-                "uniques": ["[+1 Production] from every [Strategic resource]","[Great Engineer] is earned [25]% faster","[+2]% [Production] [in all cities]",
-                      "[+1 Production] from every [Public Works Administration]"],
+                "name": "State Shareholders",
+                "uniques": ["[+1 Gold] from every [Strategic resource]","[Great Merchant] is earned [25]% faster","[+2 Production] from every [Stock Exchange]"],
                 "requires": ["Planned Economy"],
                 "row": 2,
                 "column": 2
@@ -630,7 +630,7 @@
             {
                 "name": "Fair Trade",
                 "uniques": ["[+1 Production] from every [Market]","[+1 Gold] from every [Public Works Administration]"],
-                "requires": ["Nationalization","Welfare State"],
+                "requires": ["State Shareholders","Welfare State"],
                 "row": 3,
                 "column": 3
             },
