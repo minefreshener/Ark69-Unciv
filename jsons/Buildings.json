@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Change Military Doctrine",
-		"uniques": ["Unbuildable","Can only be built <in [Capital] cities>",
+		"uniques": ["Can only be built <in [Capital] cities>",
 			"Refunds all military doctrines",
 			"Remove [Lightning Warfare] and refund [100]% of its cost <hidden from users>",
 			"Remove [Adaptive Tactics] and refund [100]% of its cost <hidden from users>",
@@ -34,7 +34,7 @@
 	},
 	{
 		"name": "Change Economic Policies",
-		"uniques": ["Unbuildable","Can only be built <in [Capital] cities>","Rebel units may spawn",
+		"uniques": ["Can only be built <in [Capital] cities>","Rebel units may spawn",
 			"Refunds all economic ideologies",
 			"Remove [Socialism] and refund [50]% of its cost <hidden from users>","Remove [Planned Economy] and refund [75]% of its cost <hidden from users>",
 			"Remove [Social Security] and refund [75]% of its cost <hidden from users>",
@@ -53,7 +53,7 @@
 	},
 	{
 		"name": "Change Educational Policies",
-		"uniques": ["Unbuildable","Can only be built <in [Capital] cities>","Rebel units may spawn",
+		"uniques": ["Can only be built <in [Capital] cities>","Rebel units may spawn",
 			"Refunds all educational ideologies",
 			"Remove [Vocationalism] and refund [100]% of its cost <hidden from users>",
 			"Remove [Academic Specialization] and refund [100]% of its cost <hidden from users>",
@@ -71,7 +71,7 @@
 	},
 	{
 		"name": "Change Government",
-		"uniques": ["Unbuildable","Can only be built <in [Capital] cities>","Rebel units may spawn",
+		"uniques": ["Can only be built <in [Capital] cities>","Rebel units may spawn",
 			"Refunds All Political Ideologies (democracies suffer worse refunding rates)",
 			"Remove [Monarchy] and refund [100]% of its cost <hidden from users>",
 			"Remove [Royal Family] and refund [75]% of its cost <hidden from users>","Remove [Empowered Nobility] and refund [75]% of its cost <hidden from users>",
