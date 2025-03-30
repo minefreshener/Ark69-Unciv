@@ -514,8 +514,8 @@
                 "name": "Entrepreneurship",
                 "uniques": ["[Great Merchant] is earned [20]% faster","[+1 Gold] from every specialist [in all cities]","[+1 Happiness] from every [Stock Exchange]"],
                 "requires": ["Privatization","Venture Capital"],
-                "row": 2,
-                "column": 4
+                "row": 3,
+                "column": 3
             },
             {
                 "name": "Industrial Capitalism Complete",
@@ -569,7 +569,7 @@
                       "[+5 Gold] from every [National Treasury]","[+2 Gold] from every [Grand Temple]","[+1 Gold] from every [Public Works Administration]",
                       "[-50]% Happiness from luxury resources gifted by City-States","[-50]% resources gifted by City-States","[-50]% Gold from Great Merchant trade missions",
                       "[Gold] cost of purchasing items in cities [-20]%"],
-                "requires": ["Industry Standards","Localized production"],
+                "requires": ["Industry Standards","Localized Production"],
                 "row": 3,
                 "column": 3
             },
@@ -578,7 +578,7 @@
                 "uniques": ["[-1 Gold, +2 Food] from every [Farmer]","[-1 Gold, +2 Production] from every [Engineer]","[-1 Gold, +2 Science] from every [Scientist]",
                       "[-1 Gold, +2 Culture] from every [Artist]","[-1 Gold, +1 Happiness] from every [Performer]","[-1 Gold, +2 Faith] from every [Priest]",
                       "[-1 Gold, +1 Culture, +1 Faith] from every [Shaman]"],
-                "requires": ["Localized production"],
+                "requires": ["Localized Production"],
                 "row": 3,
                 "column": 5
             },
